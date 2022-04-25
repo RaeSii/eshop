@@ -19,7 +19,7 @@ view all categories, products, or tags. The website will also have the capabilit
     Execute all Create, Read, Update and Delete functions using Insomnia
 
 * [GitHub Repo](https://github.com/RaeSii/eshop.git)
-* [README Walkthrough Video]
+* [README Walkthrough Video](https://github.com/RaeSii/eshop/blob/main/assets/Untitled_%20Apr%2024%2C%202022%207_16%20PM.webm)
 
 
 ### Technology
