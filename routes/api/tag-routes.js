@@ -33,7 +33,7 @@ router.get('/:id', (req, res) => {
   })
     .then(dbTag => {
       if (!dbTag) {
-        res.status(404).json({ message: 'No Category found with this id' });
+        res.status(404).json({ message: 'No Tag found with this id' });
         return;
       }
       res.json(dbTag);
@@ -47,7 +47,7 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
   // create a new tag
   Tag.create({
-    category_name: req.body.category_name
+    tag_name: req.body.tag_name
   })
     .then(dbTag => res.json(dbTag))
     .catch(err => {
