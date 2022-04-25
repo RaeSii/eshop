@@ -1,19 +1,19 @@
 {
   "name": "eshop",
   "version": "1.0.0",
-  "description": "",
+  "description": "AS A manager at an internet retail company\r I WANT a back end for my e-commerce website that uses the latest technologies\r SO THAT my company can compete with other e-commerce companies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seeds":"node seeds/index.js",
-    "watch":"nodemon server.js"
+    "seeds": "node seeds/index.js",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RaeSii/eshop.git"
   },
-  "author": "",
+  "author": "Rachel Schaaf",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RaeSii/eshop/issues"
@@ -24,5 +24,6 @@
     "express": "^4.17.3",
     "mysql2": "^2.3.3",
     "sequelize": "^6.19.0"
-  }
+  },
+  "devDependencies": {}
 }
